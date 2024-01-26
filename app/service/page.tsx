@@ -45,7 +45,7 @@ const Service = () => {
             <div className="card-body">
               <h2 className="card-title">Good quality animal based products</h2>
               <p>
-                Savor the excellence of our farm's animal-based products.
+                Savor the excellence of our farm&aposs animal-based products.
               </p>
               <div className="card-actions justify-end">
                 <button className="btn">Go to Shop</button>
@@ -56,7 +56,7 @@ const Service = () => {
             <div className="card-body">
               <h2 className="card-title">Cash on delivery</h2>
               <p>
-                Discover convenience with our "Good Quality Cash on Delivery"
+                Discover convenience with our Good Quality Cash on Delivery
                 service at the farm. 
               </p>
               <div className="card-actions justify-end">

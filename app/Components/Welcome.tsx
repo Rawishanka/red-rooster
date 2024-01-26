@@ -10,8 +10,8 @@ const Welcome = () => {
         At RED ROOSTER, we invite you to a sanctuary<br/> where the beauty of
         agriculture unfolds. Nestled in RED ROOSTER, our farm is a canvas
         painted with lush fields and the vibrant colors of fresh produce. As you
-        wander through, breathe in the fragrance of earth's goodness. We're more
-        than a farm; we're a community cultivating a sustainable tomorrow. Join
+        wander through, breathe in the fragrance of earth&aposs goodness. We&aposre more
+        than a farm; we&aposre a community cultivating a sustainable tomorrow. Join
         us in celebrating the simplicity of farm life,<br/> where every harvest is a
         story and every visit is an opportunity to connect with nature.
         Experience the charm of RED ROOSTER, where freshness and

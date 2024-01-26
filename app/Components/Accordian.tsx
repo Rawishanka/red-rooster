@@ -42,7 +42,7 @@ const Accordian = () => {
         </div>
         <div className="collapse-content">
           <p>
-            Indulge in the rich, savory goodness of our farm's meat and milk
+            Indulge in the rich, savory goodness of our farm&aposs meat and milk
             products. Our animals are raised with the utmost care, ensuring
             their health and happiness. From tender cuts of meat to creamy,
             wholesome milk products, our farm-to-table approach guarantees the

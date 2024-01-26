@@ -56,7 +56,7 @@ const Contact = () => {
                 placeholder="enter your email"
               />
               <p className="text-gray-600 text-xs italic">
-                Make it as long and as crazy as you'd like
+                Make it as long and as crazy as you&aposd like
               </p>
             </div>
             <div className="w-full px-3 mt-5">
@@ -73,7 +73,7 @@ const Contact = () => {
                 placeholder="******************"
               />
               <p className="text-gray-600 text-xs italic">
-                Make it as long and as crazy as you'd like
+                Make it as long and as crazy as you&aposd like
               </p>
             </div>
           </div>
