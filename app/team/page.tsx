@@ -44,11 +44,7 @@ const team = [
 ];
 
 const Team = () => {
-    useEffect(() => {
-      AOS.init({
-        duration: 2000,
-      });
-    }, []);
+
   return (
     <div>
       <div className="relative">
@@ -72,11 +68,13 @@ const Team = () => {
           </p>
         </div>
       </div>
-
+      <>
+      <hr></hr>
+      </>
       <div  className="grid grid-cols-3 gap-10 px-20 mt-10">
         {team.map((item, index) => {
           return (
-            <div key={item.id} data-aos="zoom-in-up" className="card w-96 bg-base-100 shadow-xl">
+            <div key={item.id} className="card w-96 bg-base-100 shadow-xl">
               <figure className="px-10 pt-10">
                 <img
                   src={item.url}

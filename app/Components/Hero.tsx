@@ -2,13 +2,17 @@
 import React from "react";
 import { useState, useEffect, SetStateAction } from "react";
 import Image from "next/image";
+import first from "@/public/photo/first.png";
+import second from "@/public/photo/second.png";
+import third from "@/public/photo/third.png";
+
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    "/photo/first.png",
-    "/photo/second.png",
-    "/photo/third.png",
+    first,
+    second,
+    third
    
   ];
 
@@ -37,8 +41,6 @@ const Hero = () => {
             }`}
           >
             <Image
-              width={1000}
-              height={200}
               className="w-full transition ease-in-out delay-150"
               alt={`Carousel Item ${index + 1}`}
                src={src}            />

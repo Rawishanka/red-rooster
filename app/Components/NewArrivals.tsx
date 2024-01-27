@@ -9,6 +9,15 @@ import { MdNavigateBefore } from "react-icons/md";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+const img1 = "/item/apple.png";
+const img2 = "/item/egg.png";
+const img3 = "/item/lettuce.png";
+const img4 = "/item/onions.png";
+const img5 = "/item/leeks.png";
+const img6 = "/item/chicken.png";
+const img7 = "/item/cheese.png";
+
+
 const sliderSetting = {
 
   slidesPerView :1,
@@ -40,7 +49,7 @@ const NewArrivals = () => {
   return (
     <div className="mt-10 px-14">
       <div className="mb-4 flex justify-between">
-      <span className="text-green-500 text-2xl font-bold">Popular Items</span>
+      <span className="text-green-500 text-2xl font-bold">New Arrival</span>
       <div className="flex gap-x-3">
       <div className="cursor-pointer"><MdNavigateBefore className="text-4xl bg-green-50 rounded-lg  shadow-lg" /></div>
       <div className="cursor-pointer"><MdNavigateNext className="text-4xl bg-green-50 rounded-lg  shadow-lg"/></div>
@@ -49,7 +58,7 @@ const NewArrivals = () => {
       <Swiper  {...sliderSetting} data-aos="fade-up" data-aos-offset="200" className="h-96 cursor-move" >
       <SwiperSlide className="hover:opacity-75">
           <div className="bg-green-50  rounded-2xl shadow-lg pb-1.5 cursor-pointer">
-            <Image src="/itemPhotos/onions.png" width={950} height={950 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
+            <Image src={img7} width={400} height={400 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
             <div className="mx-4">
 
             <span className="text-slate-500 text-xl font-medium ">Onions</span>
@@ -59,7 +68,7 @@ const NewArrivals = () => {
         </SwiperSlide>
         <SwiperSlide className="hover:opacity-75">
           <div className="bg-green-50  rounded-2xl shadow-lg pb-1.5 cursor-pointer">
-            <Image src="/itemPhotos/carrot.png" width={950} height={950 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
+            <Image src={img6} width={400} height={400 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
             <div className="mx-4">
 
             <span className="text-slate-500 text-xl font-medium ">Carrot</span>
@@ -69,7 +78,7 @@ const NewArrivals = () => {
         </SwiperSlide>
         <SwiperSlide className="hover:opacity-75">
           <div className="bg-green-50  rounded-2xl shadow-lg pb-1.5 cursor-pointer">
-            <Image src="/itemPhotos/pineapple.png" width={950} height={950 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
+            <Image src={img5} width={400} height={400 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
             <div className="mx-4">
 
             <span className="text-slate-500 text-xl font-medium ">Pineapple</span>
@@ -80,7 +89,7 @@ const NewArrivals = () => {
         
         <SwiperSlide className="hover:opacity-75">
           <div className="bg-green-50  rounded-2xl shadow-lg pb-1.5 cursor-pointer">
-            <Image src="/itemPhotos/butter.png" width={950} height={950 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
+            <Image src={img4} width={400} height={400 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
             <div className="mx-4">
 
             <span className="text-slate-500 text-xl font-medium ">Butter</span>
@@ -90,7 +99,7 @@ const NewArrivals = () => {
         </SwiperSlide>
         <SwiperSlide className="hover:opacity-75">
           <div className="bg-green-50  rounded-2xl shadow-lg pb-1.5 cursor-pointer">
-            <Image src="/itemPhotos/apple.png" width={950} height={950 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
+            <Image src={img3} width={400} height={400 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
             <div className="mx-4">
 
             <span className="text-slate-500 text-xl font-medium ">Apple</span>
@@ -100,7 +109,7 @@ const NewArrivals = () => {
         </SwiperSlide>
         <SwiperSlide className="hover:opacity-75">
           <div className="bg-green-50  rounded-2xl shadow-lg pb-1.5 cursor-pointer">
-            <Image src="/itemPhotos/egg.png" width={950} height={950 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
+            <Image src={img2} width={400} height={400 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
             <div className="mx-4">
 
             <span className="text-slate-500 text-xl font-medium ">Chicken Egg</span>
@@ -110,7 +119,7 @@ const NewArrivals = () => {
         </SwiperSlide>
         <SwiperSlide className="hover:opacity-75">
           <div className="bg-green-50  rounded-2xl shadow-lg pb-1.5 cursor-pointer">
-            <Image src="/itemPhotos/lettuce.png" width={950} height={950 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
+            <Image src={img1} width={400} height={400 }alt={""} className="rounded-t-2xl hover:opacity-75"></Image>
             <div className="mx-4">
 
             <span className="text-slate-500 text-xl font-medium ">Lettuce</span>
