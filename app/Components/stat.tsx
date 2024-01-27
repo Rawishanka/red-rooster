@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const Stat = () => {
   return (
     <div className="flex justify-center mt-5">
@@ -50,7 +50,7 @@ const Stat = () => {
           <div className="stat-figure text-secondary">
             <div className="avatar online">
               <div className="w-16 rounded-full">
-                <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                <Image src={"https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"} alt={"yeah"} />
               </div>
             </div>
           </div>

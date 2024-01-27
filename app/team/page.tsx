@@ -1,49 +1,60 @@
-"use client"
+"use client";
 import React, { useEffect } from "react";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import person1 from "@/public/team/1.png";
+import person2 from "@/public/team/2.png";
+import person3 from "@/public/team/3.png";
+import person4 from "@/public/team/4.png";
+import person5 from "@/public/team/5.png";
+import person6 from "@/public/team/6.png";
 
 const team = [
   {
-    id:"1",
+    id: "1",
     name: "Alexander Thompson",
     description: "Farm Manager",
-    url: "/team/1.png",
+    url: person1,
   },
   {
-    id:"2",
+    id: "2",
     name: "Benjamin Hayes",
     description: "Farm Sales Manager",
-    url: "/team/2.png",
+    url: person2,
   },
   {
-    id:"3",
+    id: "3",
     name: "Christopher Mitchell",
     description: "Farm worker",
-    url: "/team/3.png",
+    url: person3,
   },
   {
-    id:"4",
+    id: "4",
     name: "David Reynolds",
     description: "Order Delivering person",
-    url: "/team/4.png",
+    url: person4,
   },
   {
-    id:"5",
+    id: "5",
     name: "Edward Carter",
     description: "Financial handler",
-    url: "/team/5.png",
+    url: person5,
   },
   {
-    id:"6",
+    id: "6",
     name: "Victoria Turner",
     description: "Store room supervisor",
-    url: "/team/6.png",
+    url: person6,
   },
 ];
 
 const Team = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
 
   return (
     <div>
@@ -69,18 +80,17 @@ const Team = () => {
         </div>
       </div>
       <>
-      <hr></hr>
+        <hr></hr>
       </>
-      <div  className="grid grid-cols-3 gap-10 px-20 mt-10">
+      <div className="grid grid-cols-3 gap-10 px-20 mt-10">
         {team.map((item, index) => {
           return (
-            <div key={item.id} className="card w-96 bg-base-100 shadow-xl">
+            <div
+              key={item.id}
+              className="card w-96 bg-base-100 shadow-xl"
+            >
               <figure className="px-10 pt-10">
-                <img
-                  src={item.url}
-                  alt="Shoes"
-                  className="rounded-xl"
-                />
+                <Image src={item.url} alt="Shoes" className="rounded-xl" />
               </figure>
               <div className="card-body items-center text-center">
                 <h2 className="card-title">{item.name}</h2>

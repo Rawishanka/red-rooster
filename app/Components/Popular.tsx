@@ -115,7 +115,7 @@ const Popular = () => {
       >
         {
           listIm.map(item=>{
-            return(<SwiperSlide className="hover:opacity-75">
+            return(<SwiperSlide key={item.id} className="hover:opacity-75">
             <div className="bg-green-50  rounded-2xl shadow-lg pb-1.5 cursor-pointer">
               <Image
                 src={item.url}
