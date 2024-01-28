@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="mt-6">
       <div className="flex justify-center ">
-        <span  className="text-3xl font-bold">Contact Us</span>
+        <span className="text-3xl font-bold">Contact Us</span>
       </div>
       <div className="flex justify-center mt-10">
         <form className="w-full max-w-lg">
